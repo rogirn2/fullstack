@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            -box-sizing: border-box;
+}
+
+body#bg-login{
+    /*position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;*/
+    background-repeat: no-repeat;
+    background-image: url(../img/bg-arena-login.jpg);
+    background-size: cover;
+}
+
+section#conteudo{
+    margin:10% auto 0 auto;
+    width: 300px;
+    padding: 5%;
+    height: 300px;
+    background: #f0f0f0;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+section#conteudo form p{
+    font: 1em 'Raleway', cursive;
+    width: 100%;
+    float: left;
+    color: #090909;
+    margin: 0 auto;
+}
+
+section#conteudo form,
+section#conteudo form label{
+    width: 100%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+section#conteudo form input[type="submit"],
+section#conteudo form label input{
+    width: 100%;
+    float: left;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+section#conteudo form input[type="submit"]{
+    padding: 8px;
+    margin: 5px;
+    width: 50%;
+    border-radius: 20px;
+    background: green;
+    color: #fff;
+}
